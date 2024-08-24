@@ -44,7 +44,7 @@
 } */
 
 .theme-dark {
-  --background-primary: #100e17;
+  --background-primary: #000;
   --background-primary-alt: #0d0b12;
   --background-secondary: #191621;
   --background-secondary-alt: #0d0b12;
@@ -71,10 +71,10 @@
   --interactive-accent-rgb: #3dd7fb;
   --font-family-editor: 'Rubik';
   --font-family-preview: 'Rubik';
-  --bg-sub-accent-55: rgba(244, 86, 157, 0.55);
+  --bg-sub-accent-55: rgba(156, 105, 250, 0.8);
   --bg-accent-55: rgba(14, 210, 247, 0.55);
   --bg-accent-25: rgba(14, 210, 247, 0.25);
-  --text-highlight-bg: rgba(244, 86, 157, 0.25);
+  --text-highlight-bg: rgba(244, 86, 157, 0.45);
   --background-modifier-border: rgba(14, 210, 247, 0.05);
   --table-border-color: rgb(14, 210, 247, 0.15);
   --test-color: rgb(122, 162, 247);
@@ -647,7 +647,7 @@ strong kbd {
 
 .cm-em,
 em {
-  color: #bb9af7 !important;
+  color: rgb(229, 219, 249) !important;
   font-family: OperatorMonoSSmLig-Book, Rubik, var(--default-font) !important;
 }
 
